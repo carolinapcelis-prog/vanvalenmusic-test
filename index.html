@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alex VanValen — Santa Barbara guitarist available for performances, lessons, and sound equipment rentals. Soul, Funk, Indie, Rock, Blues, R&B.">
+  <title>Alex VanValen · Music</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── NAV ───────────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <a class="nav__logo" href="#hero">Van Valen <span>Music</span></a>
+    <button class="nav__burger" aria-label="Menu" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#lessons">Lessons</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact" class="nav__cta">Book Now</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ──────────────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+
+    <!-- Background photo — replace src with your own photo path -->
+    <div class="hero__bg">
+      <img 
+        src="images/hero-bg.jpg" 
+        alt="Alex VanValen performing"
+        class="hero__bg-img"
+        id="heroBgImg"
+        onerror="this.parentElement.classList.add('hero__bg--fallback')"
+      >
+      <div class="hero__overlay"></div>
+      <div class="hero__grain"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow">Santa Barbara, CA</p>
+      <h1 class="hero__name">Alex<br>VanValen</h1>
+      <div class="hero__genres">
+        <span>Soul</span>
+        <span class="sep">·</span>
+        <span>Funk</span>
+        <span class="sep">·</span>
+        <span>Indie</span>
+        <span class="sep">·</span>
+        <span>Rock</span>
+        <span class="sep">·</span>
+        <span>Blues</span>
+        <span class="sep">·</span>
+        <span>R&amp;B</span>
+      </div>
+      <div class="hero__services">
+        <span>Performances</span>
+        <span>Lessons</span>
+        <span>Sound Equipment</span>
+        <span>Guitarist for Hire</span>
+      </div>
+      <div class="hero__ctas">
+        <a href="#contact" class="btn btn--primary">Book / Inquire</a>
+        <a href="#lessons" class="btn btn--outline">Guitar Lessons</a>
+      </div>
+    </div>
+
+    <!-- Stats strip -->
+    <div class="hero__stats">
+      <div class="hero__stat">
+        <span class="hero__stat-num">20+</span>
+        <span class="hero__stat-label">Yrs playing</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-num">100%</span>
+        <span class="hero__stat-label">Passion-driven</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-num">SB</span>
+        <span class="hero__stat-label">Local &amp; gigging</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-num">8+</span>
+        <span class="hero__stat-label">Age welcome</span>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ── BOOKING STRIP ─────────────────────────────────────────── -->
+  <section class="booking-strip">
+    <div class="container">
+      <p class="booking-strip__text">
+        Available for booking —
+        <strong>Performances · Lessons · Sound Equipment Rentals · Guitarist for Hire</strong>
+      </p>
+      <a href="tel:XXXXXXXXXX" class="booking-strip__phone">Call / Text (805) XXX-XXXX</a>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ─────────────────────────────────────────────────── -->
+  <section class="about section" id="about">
+    <div class="container about__grid">
+
+      <div class="about__image-col">
+        <div class="about__img-wrap">
+          <img src="images/about-photo.png" alt="Alex VanValen" class="about__img">
+          <div class="about__img-frame"></div>
+        </div>
+        <!-- Instagram link -->
+        <a href="https://instagram.com/guru_rilla" target="_blank" rel="noopener" class="about__ig">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          @guru_rilla
+        </a>
+      </div>
+
+      <div class="about__text-col">
+
+        <p class="eyebrow">About Alex</p>
+        <h2 class="section__title">Santa Barbara Musician.<br><em>Teacher. Performer.</em></h2>
+
+        <div class="about__body">
+          <p>I began playing guitar nearly 20 years ago, and have been performing with bands for the last 10 years — ranging from Pop, Rock, Folk, Country, Blues, R&amp;B, and Soul.</p>
+
+          <p>I moved to Santa Barbara nearly 15 years ago to attend Westmont College and receive my B.A. in Psychology. I spent many years working in various settings in mental health and related services thereafter.</p>
+
+          <p>Working in those settings helped me to hone in on the skills I incorporate in my teaching style — <strong>patience, active listening, and adapting to the needs of each individual.</strong></p>
+        </div>
+
+        <div class="about__services-grid">
+          <div class="about__service-item">
+            <span class="about__service-icon">🎸</span>
+            <div>
+              <h4>Solo, Duo &amp; Full Band</h4>
+              <p>Performances across Santa Barbara. Sound acquisition &amp; Bose PA included.</p>
+            </div>
+          </div>
+          <div class="about__service-item">
+            <span class="about__service-icon">🎓</span>
+            <div>
+              <h4>Guitar Lessons</h4>
+              <p>All ages 8+. Beginner to intermediate. In-person SB or online.</p>
+            </div>
+          </div>
+          <div class="about__service-item">
+            <span class="about__service-icon">🔊</span>
+            <div>
+              <h4>Sound Equipment Rentals</h4>
+              <p>Bose PA system available for rent. Professional setup &amp; support.</p>
+            </div>
+          </div>
+          <div class="about__service-item">
+            <span class="about__service-icon">🎵</span>
+            <div>
+              <h4>Guitarist for Hire</h4>
+              <p>Available for studio sessions, events, and private performances.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── LESSONS ───────────────────────────────────────────────── -->
+  <section class="lessons section" id="lessons">
+    <div class="container">
+
+      <p class="eyebrow">Guitar Lessons</p>
+      <h2 class="section__title">Learn the way <em>you</em> play.</h2>
+      <p class="section__sub">First lesson is always free. No commitment, no pressure.</p>
+
+      <!-- What I teach -->
+      <div class="lessons__what">
+        <div class="lessons__what-text">
+          <h3>What I Teach</h3>
+          <p>I teach basic and beginner guitar for children and adults, as well as a curriculum-based course for beginners who'd like to level-up by learning chord shapes and scales up and down the guitar fretboard, chord embellishments, and improvisation.</p>
+          <p>In all of this, the interests, artistry, and creativity of the student is prioritized while rudimentary skills are built over time.</p>
+          <p>I also teach <strong>pre-show grounding techniques for performers</strong>, methods for booking gigs, sound acquisition, and provide artist coaching.</p>
+        </div>
+        <div class="lessons__downloads">
+          <h3>Lesson Plans &amp; Info</h3>
+          <a href="https://vanvalenmusic.com/files/1417621/one-pager.pdf" target="_blank" class="download-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Guitar Lesson Service Overview
+            <span>PDF · 107 KB</span>
+          </a>
+          <a href="https://vanvalenmusic.com/files/1417622/intermediate-lesson-plan.pdf" target="_blank" class="download-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Intermediate Lesson Plan Preview
+            <span>PDF · 83.9 KB</span>
+          </a>
+          <a href="https://vanvalenmusic.com/files/1417623/upper-intermediate-guitar-preview.pdf" target="_blank" class="download-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Upper Intermediate Lesson Plan Preview
+            <span>PDF · 126 KB</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Pricing -->
+      <div class="pricing-grid">
+
+        <div class="price-card">
+          <p class="price-card__name">Free Consultation</p>
+          <div class="price-card__amount">$0</div>
+          <p class="price-card__desc">A 30-minute intro session. Meet, play, set your goals. No commitment.</p>
+          <ul class="price-card__features">
+            <li>30 minutes, no obligation</li>
+            <li>In-person or remote</li>
+            <li>Goal-setting conversation</li>
+            <li>You'll leave having learned something</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Book free session</a>
+        </div>
+
+        <div class="price-card price-card--featured">
+          <span class="price-card__badge">Most popular</span>
+          <p class="price-card__name">Single Lesson</p>
+          <div class="price-card__amount">$65 <span>/ hour</span></div>
+          <p class="price-card__desc">One session at a time — great for flexible schedules.</p>
+          <ul class="price-card__features">
+            <li>60 minutes per session</li>
+            <li>In-person or remote</li>
+            <li>Tailored to your level &amp; style</li>
+            <li>Practice notes after each lesson</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Book a lesson</a>
+        </div>
+
+        <div class="price-card">
+          <p class="price-card__name">Monthly Package</p>
+          <div class="price-card__amount">$220 <span>/ 4 lessons</span></div>
+          <p class="price-card__desc">Weekly lessons — the fastest path to real progress.</p>
+          <ul class="price-card__features">
+            <li>4 × 60-min lessons per month</li>
+            <li>Save $40 vs single sessions</li>
+            <li>Priority scheduling</li>
+            <li>Progress tracking included</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Start a package</a>
+        </div>
+
+      </div>
+
+      <!-- Free consult CTA bar -->
+      <div class="cta-bar">
+        <div class="cta-bar__text">
+          <h3>Ready to play your first note?</h3>
+          <p>Book a free 30-minute consultation. No experience needed, no commitment required.</p>
+        </div>
+        <div class="cta-bar__right">
+          <span class="cta-bar__badge">Always free · No card required</span>
+          <a href="#contact" class="btn btn--primary">Book free consultation</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── VIDEOS ────────────────────────────────────────────────── -->
+  <section class="videos section" id="videos">
+    <div class="container">
+      <p class="eyebrow">Videos</p>
+      <h2 class="section__title">Watch &amp; Listen</h2>
+      <p class="section__sub">Live performances, originals, and more.</p>
+
+      <div class="video-grid">
+
+        <!-- ↓ Replace VIDEO_ID_1, 2, 3 with actual YouTube video IDs -->
+        <!-- Example: https://youtube.com/watch?v=ABC123 → VIDEO_ID = ABC123 -->
+
+        <div class="video-wrap">
+          <div class="video-placeholder" data-video-id="VIDEO_ID_1" onclick="loadVideo(this)">
+            <img src="https://img.youtube.com/vi/VIDEO_ID_1/maxresdefault.jpg" 
+                 alt="Video 1" class="video-thumb"
+                 onerror="this.src='https://img.youtube.com/vi/VIDEO_ID_1/0.jpg'">
+            <div class="video-play">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="38" fill="rgba(0,0,0,0.55)" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+                <polygon points="32,24 60,40 32,56" fill="white"/>
+              </svg>
+            </div>
+          </div>
+          <p class="video-caption">Performance · Video 1</p>
+          <!-- ↑ Replace with real title -->
+        </div>
+
+        <div class="video-wrap">
+          <div class="video-placeholder" data-video-id="VIDEO_ID_2" onclick="loadVideo(this)">
+            <img src="https://img.youtube.com/vi/VIDEO_ID_2/maxresdefault.jpg" 
+                 alt="Video 2" class="video-thumb"
+                 onerror="this.src='https://img.youtube.com/vi/VIDEO_ID_2/0.jpg'">
+            <div class="video-play">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="38" fill="rgba(0,0,0,0.55)" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+                <polygon points="32,24 60,40 32,56" fill="white"/>
+              </svg>
+            </div>
+          </div>
+          <p class="video-caption">Performance · Video 2</p>
+        </div>
+
+        <div class="video-wrap">
+          <div class="video-placeholder" data-video-id="VIDEO_ID_3" onclick="loadVideo(this)">
+            <img src="https://img.youtube.com/vi/VIDEO_ID_3/maxresdefault.jpg" 
+                 alt="Video 3" class="video-thumb"
+                 onerror="this.src='https://img.youtube.com/vi/VIDEO_ID_3/0.jpg'">
+            <div class="video-play">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="38" fill="rgba(0,0,0,0.55)" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+                <polygon points="32,24 60,40 32,56" fill="white"/>
+              </svg>
+            </div>
+          </div>
+          <p class="video-caption">Performance · Video 3</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ───────────────────────────────────────────────── -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <p class="eyebrow">Get in Touch</p>
+      <h2 class="section__title">Book Alex or<br><em>start a lesson.</em></h2>
+
+      <div class="contact__grid">
+
+        <div class="contact__info">
+          <div class="contact__info-item">
+            <h4>Call / Text</h4>
+            <!-- ↓ Replace with real phone number -->
+            <a href="tel:8055550000" class="contact__link">(805) XXX-XXXX</a>
+          </div>
+          <div class="contact__info-item">
+            <h4>Email</h4>
+            <a href="mailto:vanvalenmusic@gmail.com" class="contact__link">vanvalenmusic@gmail.com</a>
+          </div>
+          <div class="contact__info-item">
+            <h4>Instagram</h4>
+            <a href="https://instagram.com/guru_rilla" target="_blank" rel="noopener" class="contact__link">@guru_rilla</a>
+          </div>
+          <div class="contact__info-item">
+            <h4>Location</h4>
+            <p>Santa Barbara, CA<br>
+            In-person: SB · Goleta · Carpinteria<br>
+            Remote: available worldwide</p>
+          </div>
+
+          <div class="contact__availability">
+            <h4>Available for</h4>
+            <ul>
+              <li>Solo, Duo &amp; Full Band Performances</li>
+              <li>Guitar Lessons (all ages 8+)</li>
+              <li>Sound Equipment Rentals</li>
+              <li>Guitarist for Hire</li>
+              <li>Artist Coaching</li>
+            </ul>
+            <p class="contact__bose-note">Bose PA system &amp; sound acquisition included with performances.</p>
+          </div>
+        </div>
+
+        <form class="contact__form" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="(805) 555-0000">
+          </div>
+          <div class="form-group">
+            <label for="interest">I'm interested in…</label>
+            <select id="interest" name="interest">
+              <option value="">Select one</option>
+              <option value="free-lesson">Free guitar lesson consultation</option>
+              <option value="lessons">Guitar lessons (ongoing)</option>
+              <option value="performance">Booking a performance</option>
+              <option value="sound">Sound equipment rental</option>
+              <option value="hire">Guitarist for hire</option>
+              <option value="other">Other / not sure yet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me a bit about what you're looking for…" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send message</button>
+          <div class="form-success" id="formSuccess">
+            Message sent! Alex will be in touch within 24 hours.
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__name">Van Valen Music</p>
+        <p class="footer__loc">Santa Barbara, CA</p>
+      </div>
+      <div class="footer__links">
+        <a href="#about">About</a>
+        <a href="#lessons">Lessons</a>
+        <a href="#videos">Videos</a>
+        <a href="#contact">Contact</a>
+        <a href="https://instagram.com/guru_rilla" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <div class="footer__contact">
+        <a href="mailto:vanvalenmusic@gmail.com">vanvalenmusic@gmail.com</a>
+        <a href="tel:8055550000">(805) XXX-XXXX</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 Alex VanValen · vanvalenmusic.com</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
