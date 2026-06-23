@@ -53,7 +53,7 @@ function handleSubmit(e) {
 
   // Formspree endpoint — replace YOUR_FORM_ID with your actual Formspree form ID
   // Sign up free at formspree.io to get one
-  const FORMSPREE_URL = 'https://formspree.io/f/YOUR_FORM_ID';
+  const FORMSPREE_URL = 'https://formspree.io/f/xykqzlyz';
 
   btn.textContent = 'Sending…';
   btn.disabled = true;
